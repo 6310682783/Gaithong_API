@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GaiThong_API.props" />
+</Project>
