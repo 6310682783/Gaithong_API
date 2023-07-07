@@ -22,20 +22,20 @@ namespace GaiThong_API.Repositories
         public async Task<IEnumerable<T>> GetAll() 
         {
             var classname = typeof(T).Name;
-            var sqlCommand = $"SELECT * FROM {classname}";
+            var sqlCommand = $"SELECT * FROM {classname} ORDER BY RemindDate";
             using (var db = new SqlConnection(connectionString)) 
             {
                 var result = await db.QueryAsync<T>(sqlCommand);
                 return result.ToList();
             }
         }
-        public async Task<T> GetById(int id)
+        public async Task<T> GetById(int Id)
         {
             var classname = typeof(T).Name;
-            var sqlCommand = $"SELECT * FROM {classname} WHERE [Id] = @id";
+            var sqlCommand = $"SELECT * FROM {classname} WHERE [Id] = @Id";
             using (var db = new SqlConnection(connectionString))
             {
-                var result = await db.QueryAsync<T>(sqlCommand,new { id = id});
+                var result = await db.QueryAsync<T>(sqlCommand,new { id = Id});
                 return result.FirstOrDefault() ;
             }
         }

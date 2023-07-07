@@ -6,9 +6,9 @@ namespace GaiThong_API.Models
     {
         public int Id { get; set; }
 
-        public DateTime RemindDate { get; set; }
+        public DateTime? RemindDate { get; set; }
 
-        public TimeSpan RemindTime { get; set; }
+        public DateTime? RemindTime { get; set; }
 
         public string CreateBy { get; set; }
 

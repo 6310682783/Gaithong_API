@@ -22,17 +22,17 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 ConfigurationManager Configuration = builder.Configuration;
 
 //allow cors policy
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy(name: MyAllowSpecificOrigins,
-//                      builder =>
-//                      {
-//                          _ = builder.WithOrigins(Configuration.GetSection("CorsOrigins").Get<string[]>())
-//                          .AllowAnyMethod()
-//                          .AllowAnyHeader()
-//                          .AllowCredentials();
-//                      });
-//});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      builder =>
+                      {
+                          _ = builder.WithOrigins(Configuration.GetSection("CorsOrigins").Get<string[]>())
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials();
+                      });
+});
 
 //setting serilog
 var logger = new LoggerConfiguration()
@@ -120,7 +120,7 @@ app.UseSwaggerUI(c =>
 
 app.UseElmah();
 
-//app.UseCors(MyAllowSpecificOrigins);
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
 app.UseRouting();

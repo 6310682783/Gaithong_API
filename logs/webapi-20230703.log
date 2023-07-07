@@ -1,0 +1,92 @@
+[2023-07-03 15:10:18.372 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-03 15:10:18.462 +07:00  INF]  Hosting environment: Development
+[2023-07-03 15:10:18.464 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-03 15:10:18.462 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-03 15:10:19.808 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-03 15:10:19.808 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-03 15:10:19.828 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 1360.5707ms
+[2023-07-03 15:10:19.829 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 20.3927ms
+[2023-07-03 15:10:20.119 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 311.2710ms
+[2023-07-03 15:10:20.925 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-03 15:10:21.277 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 351.9423ms
+[2023-07-03 15:13:19.131 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:13:19.323 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 199.0363ms
+[2023-07-03 15:14:17.250 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:14:17.264 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 14.3170ms
+[2023-07-03 15:14:20.194 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:14:20.196 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.0009ms
+[2023-07-03 15:14:21.206 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:14:21.208 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.4985ms
+[2023-07-03 15:14:58.227 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:14:58.243 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 16.1977ms
+[2023-07-03 15:15:02.984 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:15:02.986 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.4201ms
+[2023-07-03 15:15:10.268 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/ReminderApi/GetAll - -
+[2023-07-03 15:15:10.306 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderApiController.GetAll (GaiThong_API)'
+[2023-07-03 15:15:10.361 +07:00  INF]  Route matched with {action = "GetAll", controller = "ReminderApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller GaiThong_API.Controllers.ReminderApiController (GaiThong_API).
+[2023-07-03 15:15:12.619 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-03 15:15:12.693 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderApiController.GetAll (GaiThong_API) in 2320.8876ms
+[2023-07-03 15:15:12.698 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderApiController.GetAll (GaiThong_API)'
+[2023-07-03 15:15:12.700 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/ReminderApi/GetAll - - - 200 - application/json;+charset=utf-8 2432.5657ms
+[2023-07-03 15:15:27.200 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:15:27.202 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.7322ms
+[2023-07-03 15:15:31.220 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:15:31.223 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.4472ms
+[2023-07-03 15:15:34.526 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:15:34.530 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 3.9761ms
+[2023-07-03 15:17:17.951 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:17:17.954 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 13.5591ms
+[2023-07-03 15:17:35.351 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:17:35.353 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.4828ms
+[2023-07-03 15:18:09.200 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:09.231 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 31.9495ms
+[2023-07-03 15:18:09.241 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:09.243 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.7160ms
+[2023-07-03 15:18:26.202 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:26.205 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.5155ms
+[2023-07-03 15:18:26.207 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:26.209 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.2290ms
+[2023-07-03 15:18:29.273 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:29.276 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.9622ms
+[2023-07-03 15:18:30.199 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:18:30.202 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 3.0752ms
+[2023-07-03 15:21:10.218 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:10.226 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 9.7260ms
+[2023-07-03 15:21:10.229 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:10.231 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.8432ms
+[2023-07-03 15:21:14.185 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:14.188 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.1874ms
+[2023-07-03 15:21:14.250 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:14.253 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.9356ms
+[2023-07-03 15:21:16.202 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:16.205 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.9697ms
+[2023-07-03 15:21:16.206 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:16.208 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.0180ms
+[2023-07-03 15:21:20.190 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:20.192 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.3875ms
+[2023-07-03 15:21:20.194 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:20.195 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.4536ms
+[2023-07-03 15:21:23.195 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:23.198 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.3749ms
+[2023-07-03 15:21:23.200 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:23.202 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.3757ms
+[2023-07-03 15:21:43.194 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:43.196 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.9866ms
+[2023-07-03 15:21:43.197 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:43.199 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.6406ms
+[2023-07-03 15:21:46.193 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:46.195 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.6990ms
+[2023-07-03 15:21:46.198 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:46.201 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.5355ms
+[2023-07-03 15:21:50.449 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:50.452 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 3.1357ms
+[2023-07-03 15:21:53.699 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:21:53.702 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 3.2417ms
+[2023-07-03 15:34:14.205 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:34:14.207 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.0606ms
+[2023-07-03 15:34:14.222 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:34:14.224 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.7307ms
+[2023-07-03 15:44:27.303 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:44:27.306 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 2.7409ms
+[2023-07-03 15:44:41.144 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-03 15:44:41.145 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 404 - - 1.3582ms

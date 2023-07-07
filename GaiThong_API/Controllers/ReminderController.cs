@@ -5,10 +5,10 @@ using GaiThong_API.Services;
 namespace GaiThong_API.Controllers
 {
     [Route("[controller]")]
-    public class ReminderApiController : Controller
+    public class ReminderController : Controller
     {
         private readonly IReminderService _reminderService;
-        public ReminderApiController(IReminderService reminderService)
+        public ReminderController(IReminderService reminderService)
         {
             this._reminderService = reminderService;
         }
@@ -30,6 +30,26 @@ namespace GaiThong_API.Controllers
                 });
             }
         }
+
+        [HttpGet("GetAllFromNow")]
+        public async Task<IActionResult> GetAllFromNow()
+        {
+            try
+            {
+                var result = await _reminderService.GetAllFromNow();
+                return Ok(new { isSuccess = true, data = result });
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new
+                {
+                    isSuccess = false,
+                    statusCode = 500,
+                    message = ex.Message
+                });
+            }
+        }
+
         [HttpGet("GetById/{Id}")]
         public async Task<IActionResult> GetById(int Id)
         {
@@ -70,7 +90,7 @@ namespace GaiThong_API.Controllers
 
             }
         }
-        [HttpDelete("Delete/{id}")]
+        [HttpDelete("Delete/{Id}")]
         public async Task<IActionResult> Delete(int Id)
         {
             try

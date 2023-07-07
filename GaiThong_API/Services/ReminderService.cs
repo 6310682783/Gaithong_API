@@ -6,6 +6,9 @@ namespace GaiThong_API.Services
     public interface IReminderService
     {
         Task<IEnumerable<Reminder>> GetAll();
+
+        Task<IEnumerable<Reminder>> GetAllFromNow();
+
         Task<Reminder> GetById(int Id);
         Task<bool> Add(Reminder reminder);
         Task<bool> Update(Reminder reminder);
@@ -21,6 +24,10 @@ namespace GaiThong_API.Services
 
         public async Task<bool> Add(Reminder reminder)
         {
+            reminder.RemindDate = reminder.RemindDate;
+            reminder.RemindTime = reminder.RemindTime;
+            reminder.Description = reminder.Description;
+            reminder.CreateDate = DateTime.Now;
             var result = await reminderRepository.Add(reminder);
             return result>1;
         }
@@ -37,6 +44,12 @@ namespace GaiThong_API.Services
             return result;
         }
 
+        public async Task<IEnumerable<Reminder>> GetAllFromNow()
+        {
+            var result = await reminderRepository.GetAllFromNow();
+            return result;
+        }
+
         public async Task<Reminder> GetById(int Id)
         {
             var result = await reminderRepository.GetById(Id);
@@ -48,8 +61,7 @@ namespace GaiThong_API.Services
             var model = await reminderRepository.GetById(reminder.Id);
             model.RemindDate = reminder.RemindDate;
             model.RemindTime = reminder.RemindTime;
-            model.CreateBy = reminder.CreateBy;
-            model.CreateDate = reminder.CreateDate;
+            model.Description = reminder.Description;
             var result = await reminderRepository.Update(model);
             return (result > 0);
         }
