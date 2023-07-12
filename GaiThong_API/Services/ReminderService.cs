@@ -7,7 +7,7 @@ namespace GaiThong_API.Services
     {
         Task<IEnumerable<Reminder>> GetAll();
 
-        Task<IEnumerable<Reminder>> GetAllFromNow();
+        Task<(IEnumerable<Reminder>, int)> GetAllFromNow();
 
         Task<Reminder> GetById(int Id);
         Task<bool> Add(Reminder reminder);
@@ -44,7 +44,7 @@ namespace GaiThong_API.Services
             return result;
         }
 
-        public async Task<IEnumerable<Reminder>> GetAllFromNow()
+        public async Task<(IEnumerable<Reminder>, int)> GetAllFromNow()
         {
             var result = await reminderRepository.GetAllFromNow();
             return result;

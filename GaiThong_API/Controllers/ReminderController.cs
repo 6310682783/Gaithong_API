@@ -36,8 +36,8 @@ namespace GaiThong_API.Controllers
         {
             try
             {
-                var result = await _reminderService.GetAllFromNow();
-                return Ok(new { isSuccess = true, data = result });
+                var (result,count) = await _reminderService.GetAllFromNow();
+                return Ok(new { isSuccess = true, data = result,count });
             }
             catch (Exception ex)
             {

@@ -7,7 +7,7 @@ namespace GaiThong_API.Repositories
     public interface IReminderRepository
     {
         Task<IEnumerable<Reminder>> GetAll();
-        Task<IEnumerable<Reminder>> GetAllFromNow();
+        Task<(IEnumerable<Reminder>, int)> GetAllFromNow();
         Task<Reminder> GetById(int Id);
         Task<int> Add(Reminder remindner);
         Task<int> Update(Reminder reminder);
@@ -19,14 +19,15 @@ namespace GaiThong_API.Repositories
         {
 
         }
-        public async Task<IEnumerable<Reminder>> GetAllFromNow()
+        public async Task<(IEnumerable<Reminder>, int)> GetAllFromNow()
         {
             var currentDate = DateTime.Now.Date;
             var sqlCommand = $"SELECT * FROM [Reminder] WHERE [RemindDate] >= @currentDate ORDER BY RemindDate";
             using (var db = new SqlConnection(connectionString))
             {
                 var result = await db.QueryAsync<Reminder>(sqlCommand, new { currentDate = currentDate });
-                return result.ToList();
+                var count = result.Count();
+                return (result.ToList(),count);
             }
         }
 
