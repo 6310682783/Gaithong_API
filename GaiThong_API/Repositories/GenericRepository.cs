@@ -22,7 +22,7 @@ namespace GaiThong_API.Repositories
         public async Task<IEnumerable<T>> GetAll() 
         {
             var classname = typeof(T).Name;
-            var sqlCommand = $"SELECT * FROM {classname} ORDER BY RemindDate";
+            var sqlCommand = $"SELECT * FROM {classname} ORDER BY [RemindDate], [RemindTime]";
             using (var db = new SqlConnection(connectionString)) 
             {
                 var result = await db.QueryAsync<T>(sqlCommand);
