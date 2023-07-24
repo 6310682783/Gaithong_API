@@ -1,0 +1,146 @@
+[2023-07-24 15:13:33.211 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 15:13:33.305 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:13:33.319 +07:00  INF]  Hosting environment: Development
+[2023-07-24 15:13:33.319 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 15:13:34.871 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:13:34.880 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 1578.8278ms
+[2023-07-24 15:13:34.896 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:13:34.897 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 26.3175ms
+[2023-07-24 15:13:35.090 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 193.7489ms
+[2023-07-24 15:13:35.176 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:13:35.456 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.8954ms
+[2023-07-24 15:16:07.266 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:16:07.327 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 61.7411ms
+[2023-07-24 15:16:07.378 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:16:07.378 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:16:07.384 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 5.6870ms
+[2023-07-24 15:16:07.502 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.4872ms
+[2023-07-24 15:16:07.877 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:16:07.890 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.8412ms
+[2023-07-24 15:16:10.931 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:16:10.953 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 21.1290ms
+[2023-07-24 15:16:10.969 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:16:10.974 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:16:10.977 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 2.7947ms
+[2023-07-24 15:16:11.044 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.1778ms
+[2023-07-24 15:16:11.216 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:16:11.226 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.3808ms
+[2023-07-24 15:16:20.898 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/Reminder/LineNotify?message=TEstest - 0
+[2023-07-24 15:16:20.923 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:16:20.934 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:16:21.017 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.LineNotify (GaiThong_API)'
+[2023-07-24 15:16:21.059 +07:00  INF]  Route matched with {action = "LineNotify", controller = "Reminder"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LineNotify(System.String) on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-24 15:16:22.300 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 15:16:22.336 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.LineNotify (GaiThong_API) in 1262.4198ms
+[2023-07-24 15:16:22.341 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.LineNotify (GaiThong_API)'
+[2023-07-24 15:16:22.343 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/Reminder/LineNotify?message=TEstest - 0 - 200 - application/json;+charset=utf-8 1444.0949ms
+[2023-07-24 15:44:37.219 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 15:44:37.330 +07:00  INF]  Hosting environment: Development
+[2023-07-24 15:44:37.325 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:44:37.332 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 15:44:38.207 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:44:38.207 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:44:38.240 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 899.9446ms
+[2023-07-24 15:44:38.240 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 30.2002ms
+[2023-07-24 15:44:38.390 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 183.3469ms
+[2023-07-24 15:44:39.425 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:44:39.652 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.1820ms
+[2023-07-24 15:45:02.774 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=test%20await%20async - 0
+[2023-07-24 15:45:02.797 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:45:02.804 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:45:02.882 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:45:02.937 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:45:04.187 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 15:45:04.227 +07:00  INF]  Executed action GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API) in 1271.6287ms
+[2023-07-24 15:45:04.231 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:45:04.233 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/LineNotify?message=test%20await%20async - 0 - 200 - application/json;+charset=utf-8 1459.4457ms
+[2023-07-24 15:45:39.547 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=test%20send%20data - 0
+[2023-07-24 15:45:39.550 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:45:39.551 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:45:39.554 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:45:39.555 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:47:45.786 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 15:47:45.911 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:47:45.917 +07:00  INF]  Hosting environment: Development
+[2023-07-24 15:47:45.919 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 15:47:46.758 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:47:46.758 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:47:46.790 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 20.3801ms
+[2023-07-24 15:47:46.792 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 890.9630ms
+[2023-07-24 15:47:46.877 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.0813ms
+[2023-07-24 15:47:47.038 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:47:47.294 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.3672ms
+[2023-07-24 15:48:00.230 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=test%20 - 0
+[2023-07-24 15:48:00.245 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:48:00.252 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:48:00.325 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:48:00.383 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:48:09.453 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 15:48:09.470 +07:00  INF]  Executed action GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API) in 9080.2103ms
+[2023-07-24 15:48:09.472 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:48:09.474 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/LineNotify?message=test%20 - 0 - 200 - application/json;+charset=utf-8 9244.6959ms
+[2023-07-24 15:50:32.670 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 15:50:32.773 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:50:32.786 +07:00  INF]  Hosting environment: Development
+[2023-07-24 15:50:32.787 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 15:50:33.503 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:50:33.507 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:50:33.514 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 749.4805ms
+[2023-07-24 15:50:33.516 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 9.0333ms
+[2023-07-24 15:50:33.611 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.9109ms
+[2023-07-24 15:50:33.729 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:50:34.000 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.3209ms
+[2023-07-24 15:50:46.658 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=wertyuiop - 0
+[2023-07-24 15:50:46.675 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:50:46.681 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:50:46.748 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:50:46.808 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:51:08.679 +07:00  INF]  Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 15:51:08.728 +07:00  INF]  Executed action GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API) in 21900.2402ms
+[2023-07-24 15:51:08.736 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:51:08.741 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/LineNotify?message=wertyuiop - 0 - 200 - application/json;+charset=utf-8 22082.6178ms
+[2023-07-24 15:52:09.014 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=gtest - 0
+[2023-07-24 15:52:09.055 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:52:09.055 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:52:09.056 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:52:09.057 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:53:37.290 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 15:53:37.388 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 15:53:37.399 +07:00  INF]  Hosting environment: Development
+[2023-07-24 15:53:37.400 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 15:53:38.375 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 15:53:38.377 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 15:53:38.380 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 999.6565ms
+[2023-07-24 15:53:38.398 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 21.7923ms
+[2023-07-24 15:53:38.489 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.3844ms
+[2023-07-24 15:53:38.599 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 15:53:38.854 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.8373ms
+[2023-07-24 15:53:45.895 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=ghgh - 0
+[2023-07-24 15:53:45.915 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 15:53:45.921 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 15:53:46.012 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:53:46.086 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 15:53:48.308 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 15:53:48.352 +07:00  INF]  Executed action GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API) in 2248.6038ms
+[2023-07-24 15:53:48.358 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 15:53:48.363 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/LineNotify?message=ghgh - 0 - 200 - application/json;+charset=utf-8 2467.6283ms
+[2023-07-24 16:03:11.930 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-24 16:03:12.023 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-24 16:03:12.029 +07:00  INF]  Hosting environment: Development
+[2023-07-24 16:03:12.030 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-24 16:03:12.676 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-24 16:03:12.678 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 662.7448ms
+[2023-07-24 16:03:12.678 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-24 16:03:12.697 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 20.2384ms
+[2023-07-24 16:03:12.815 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.7125ms
+[2023-07-24 16:03:12.905 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-24 16:03:13.144 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.4230ms
+[2023-07-24 16:03:24.289 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/LineNotify?message=testtest - 0
+[2023-07-24 16:03:24.305 +07:00  INF]  CORS policy execution failed.
+[2023-07-24 16:03:24.310 +07:00  INF]  Request origin https://localhost:44365 does not have permission to access the resource.
+[2023-07-24 16:03:24.383 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 16:03:24.432 +07:00  INF]  Route matched with {action = "LineNotify", controller = "LineApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LineNotify(System.String) on controller GaiThong_API.Controllers.LineApiController (GaiThong_API).
+[2023-07-24 16:03:26.277 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-24 16:03:26.330 +07:00  INF]  Executed action GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API) in 1878.7242ms
+[2023-07-24 16:03:26.338 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.LineApiController.LineNotify (GaiThong_API)'
+[2023-07-24 16:03:26.342 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/LineNotify?message=testtest - 0 - 200 - application/json;+charset=utf-8 2052.9638ms

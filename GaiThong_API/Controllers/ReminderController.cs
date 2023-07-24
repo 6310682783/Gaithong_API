@@ -8,9 +8,11 @@ namespace GaiThong_API.Controllers
     public class ReminderController : Controller
     {
         private readonly IReminderService _reminderService;
-        public ReminderController(IReminderService reminderService)
+        private readonly ILineNotifyService _lineNotifyService;
+        public ReminderController(IReminderService reminderService, ILineNotifyService lineNotifyService)
         {
             this._reminderService = reminderService;
+            this._lineNotifyService = lineNotifyService;
         }
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
@@ -127,9 +129,7 @@ namespace GaiThong_API.Controllers
                     message = ex.Message
                 });
             }
-        }
-
-
+        }       
 
     }
 
