@@ -850,3 +850,126 @@
 [2023-07-17 13:43:11.578 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API) in 26.229ms
 [2023-07-17 13:43:11.578 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
 [2023-07-17 13:43:11.578 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 200 - application/json;+charset=utf-8 39.6175ms
+[2023-07-17 13:43:33.232 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-07-17 13:43:33.282 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+[2023-07-17 13:43:33.288 +07:00  INF]  Hosting environment: Development
+[2023-07-17 13:43:33.288 +07:00  INF]  Content root path: D:\kp\GaiThong_API\GaiThong_API
+[2023-07-17 13:43:33.709 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+[2023-07-17 13:43:33.711 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 433.4568ms
+[2023-07-17 13:43:33.720 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.8312ms
+[2023-07-17 13:43:33.738 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/_vs/browserLink - -
+[2023-07-17 13:43:33.794 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.1681ms
+[2023-07-17 13:43:34.520 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+[2023-07-17 13:43:34.694 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.6375ms
+[2023-07-17 13:43:44.488 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Home/GetAllToday - -
+[2023-07-17 13:43:44.488 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - -
+[2023-07-17 13:43:44.506 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:43:44.506 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:43:44.570 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:43:44.570 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:43:44.608 +07:00  INF]  Route matched with {action = "GetAllFromNow", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFromNow() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:43:44.609 +07:00  INF]  Route matched with {action = "GetAllToday", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllToday() on controller GaiThong_API.Controllers.HomeController (GaiThong_API).
+[2023-07-17 13:43:45.332 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:43:45.333 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GaiThong_API.Models.ViewModels.ReminderModel, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-07-17 13:43:45.372 +07:00  INF]  Executed action GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API) in 748.226ms
+[2023-07-17 13:43:45.377 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:43:45.381 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Home/GetAllToday - - - 200 - application/json;+charset=utf-8 893.6803ms
+[2023-07-17 13:43:45.403 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API) in 793.3279ms
+[2023-07-17 13:43:45.404 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:43:45.404 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - - - 200 - application/json;+charset=utf-8 916.3554ms
+[2023-07-17 13:43:53.588 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-17 13:43:53.589 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:43:53.595 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:43:53.603 +07:00  INF]  Route matched with {action = "GetAll", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:43:53.618 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:43:53.620 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API) in 17.1853ms
+[2023-07-17 13:43:53.620 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:43:53.621 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 200 - application/json;+charset=utf-8 32.7174ms
+[2023-07-17 13:44:04.420 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Home/GetAllToday - -
+[2023-07-17 13:44:04.420 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - -
+[2023-07-17 13:44:04.421 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:04.421 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:04.422 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:04.422 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:04.422 +07:00  INF]  Route matched with {action = "GetAllToday", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllToday() on controller GaiThong_API.Controllers.HomeController (GaiThong_API).
+[2023-07-17 13:44:04.422 +07:00  INF]  Route matched with {action = "GetAllFromNow", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFromNow() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:44:04.430 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GaiThong_API.Models.ViewModels.ReminderModel, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-07-17 13:44:04.431 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:44:04.433 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API) in 9.8309ms
+[2023-07-17 13:44:04.433 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:04.433 +07:00  INF]  Executed action GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API) in 10.2845ms
+[2023-07-17 13:44:04.433 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:04.433 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - - - 200 - application/json;+charset=utf-8 13.2820ms
+[2023-07-17 13:44:04.433 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Home/GetAllToday - - - 200 - application/json;+charset=utf-8 13.4310ms
+[2023-07-17 13:44:08.343 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-17 13:44:08.344 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:08.345 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:44:08.345 +07:00  INF]  Route matched with {action = "GetAll", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:44:08.350 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:44:08.351 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API) in 5.6355ms
+[2023-07-17 13:44:08.351 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:44:08.351 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 200 - application/json;+charset=utf-8 7.9265ms
+[2023-07-17 13:44:08.711 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Home/GetAllToday - -
+[2023-07-17 13:44:08.711 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - -
+[2023-07-17 13:44:08.711 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:08.711 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:08.712 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:08.712 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:08.712 +07:00  INF]  Route matched with {action = "GetAllToday", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllToday() on controller GaiThong_API.Controllers.HomeController (GaiThong_API).
+[2023-07-17 13:44:08.717 +07:00  INF]  Route matched with {action = "GetAllFromNow", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFromNow() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:44:08.729 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GaiThong_API.Models.ViewModels.ReminderModel, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-07-17 13:44:08.732 +07:00  INF]  Executed action GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API) in 19.5504ms
+[2023-07-17 13:44:08.733 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:08.734 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:44:08.735 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Home/GetAllToday - - - 200 - application/json;+charset=utf-8 23.7387ms
+[2023-07-17 13:44:08.735 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API) in 6.8763ms
+[2023-07-17 13:44:08.736 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:08.737 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - - - 200 - application/json;+charset=utf-8 26.0530ms
+[2023-07-17 13:44:14.698 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAll - -
+[2023-07-17 13:44:14.699 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:14.699 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:44:14.699 +07:00  INF]  Route matched with {action = "GetAll", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:44:14.705 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:44:14.707 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API) in 7.2564ms
+[2023-07-17 13:44:14.707 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAll (GaiThong_API)'
+[2023-07-17 13:44:14.708 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAll - - - 200 - application/json;+charset=utf-8 10.5512ms
+[2023-07-17 13:44:15.384 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - -
+[2023-07-17 13:44:15.384 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Home/GetAllToday - -
+[2023-07-17 13:44:15.385 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:15.385 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:44:15.385 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:15.385 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:15.385 +07:00  INF]  Route matched with {action = "GetAllFromNow", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFromNow() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:44:15.386 +07:00  INF]  Route matched with {action = "GetAllToday", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllToday() on controller GaiThong_API.Controllers.HomeController (GaiThong_API).
+[2023-07-17 13:44:15.394 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GaiThong_API.Models.ViewModels.ReminderModel, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-07-17 13:44:15.394 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:44:15.395 +07:00  INF]  Executed action GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API) in 9.1382ms
+[2023-07-17 13:44:15.395 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API) in 9.3821ms
+[2023-07-17 13:44:15.395 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:44:15.395 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:44:15.396 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Home/GetAllToday - - - 200 - application/json;+charset=utf-8 11.1797ms
+[2023-07-17 13:44:15.396 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - - - 200 - application/json;+charset=utf-8 11.3436ms
+[2023-07-17 13:45:27.610 +07:00  INF]  Request starting HTTP/2 POST https://localhost:44365/Reminder/Add multipart/form-data;+boundary=----WebKitFormBoundaryw8fFvGjbJM2YPDic 450
+[2023-07-17 13:45:27.620 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:45:27.621 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.Add (GaiThong_API)'
+[2023-07-17 13:45:27.636 +07:00  INF]  Route matched with {action = "Add", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(GaiThong_API.Models.Reminder) on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:45:27.825 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:45:27.828 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.Add (GaiThong_API) in 191.2789ms
+[2023-07-17 13:45:27.828 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.Add (GaiThong_API)'
+[2023-07-17 13:45:27.830 +07:00  INF]  Request finished HTTP/2 POST https://localhost:44365/Reminder/Add multipart/form-data;+boundary=----WebKitFormBoundaryw8fFvGjbJM2YPDic 450 - 200 - application/json;+charset=utf-8 221.4030ms
+[2023-07-17 13:45:29.944 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - -
+[2023-07-17 13:45:29.944 +07:00  INF]  Request starting HTTP/2 GET https://localhost:44365/Home/GetAllToday - -
+[2023-07-17 13:45:29.945 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:45:29.945 +07:00  INF]  CORS policy execution successful.
+[2023-07-17 13:45:29.946 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:45:29.946 +07:00  INF]  Executing endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:45:29.946 +07:00  INF]  Route matched with {action = "GetAllFromNow", controller = "Reminder"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFromNow() on controller GaiThong_API.Controllers.ReminderController (GaiThong_API).
+[2023-07-17 13:45:29.947 +07:00  INF]  Route matched with {action = "GetAllToday", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllToday() on controller GaiThong_API.Controllers.HomeController (GaiThong_API).
+[2023-07-17 13:45:29.960 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[GaiThong_API.Models.ViewModels.ReminderModel, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-07-17 13:45:29.960 +07:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[GaiThong_API.Models.Reminder, GaiThong_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-07-17 13:45:29.971 +07:00  INF]  Executed action GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API) in 23.7791ms
+[2023-07-17 13:45:29.971 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.HomeController.GetAllToday (GaiThong_API)'
+[2023-07-17 13:45:29.978 +07:00  INF]  Executed action GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API) in 30.4701ms
+[2023-07-17 13:45:29.979 +07:00  INF]  Executed endpoint 'GaiThong_API.Controllers.ReminderController.GetAllFromNow (GaiThong_API)'
+[2023-07-17 13:45:29.984 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Home/GetAllToday - - - 200 - application/json;+charset=utf-8 39.5461ms
+[2023-07-17 13:45:29.984 +07:00  INF]  Request finished HTTP/2 GET https://localhost:44365/Reminder/GetAllFromNow - - - 200 - application/json;+charset=utf-8 39.7364ms

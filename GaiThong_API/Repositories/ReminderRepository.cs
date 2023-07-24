@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
 using GaiThong_API.Models;
 
 namespace GaiThong_API.Repositories

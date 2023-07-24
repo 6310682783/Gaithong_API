@@ -1,7 +1,7 @@
 ﻿using Dapper;
-using Microsoft.Data.SqlClient;
 using NuGet.Protocol.Plugins;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace GaiThong_API.Repositories
 {

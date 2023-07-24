@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "V9lqu9phgClDCEddY5uy7dBVf2cbyW9vAdyx/hY8SWA=",
+  "Source": "GaiThong_API",
+  "BasePath": "_content/GaiThong_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GaiThong_API\\wwwroot",
+      "Source": "GaiThong_API",
+      "ContentRoot": "D:\\kp\\GaiThong_API\\GaiThong_API\\wwwroot\\",
+      "BasePath": "_content/GaiThong_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
